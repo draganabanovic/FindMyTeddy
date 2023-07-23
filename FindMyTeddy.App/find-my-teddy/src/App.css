@@ -1,0 +1,243 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.profil-img {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+}
+
+.map-pin {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  border-radius: 50%;
+  border: 8px solid #fff;
+  width: 8px;
+  height: 8px;
+}
+
+.map-pin::after {
+  position: absolute;
+  content: "";
+  width: 0px;
+  height: 0px;
+  bottom: -27px;
+  left: -7px;
+  border: 7px solid transparent;
+  border-top: 17px solid #fff;
+}
+
+.last-location {
+  background: #ecf7e7;
+  border-color: #e7f7e0;
+  border-radius: 10px;
+  text-align: start;
+  margin: 10px;
+  padding: 10px;
+}
+
+.last-location:hover {
+  background: #bfdab4;
+  cursor: pointer;
+}
+
+.navbar-custom {
+  background: #f7a4a4;
+}
+
+.naslovi {
+  background: #b6e2a1;
+  color: black;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-style: bold;
+  font-family: Comic Sans MS;
+  font-size: 20px;
+  border-radius: 10px;
+  margin: 3px 7px;
+}
+
+.navbar a:hover {
+  background-color: #b6e2a1;
+  color: white;
+}
+
+.active {
+  background-color: #b6e2a1;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+h1 {
+  font-family: Comic Sans MS;
+  align-items: center;
+  color: #b6e2a1;
+  text-align: center;
+}
+
+.red-btn {
+  background-color: #f7a4a4 !important;
+  border: 0 !important;
+}
+
+.red-btn:hover {
+  background-color: #dd6f6f !important;
+}
+
+.logo img {
+  cursor: pointer;
+  margin: 0 10px;
+  height: 60px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.add-pet label {
+  margin-top: 5px;
+}
+
+.add-pet .card-header {
+  background-color: #b6e2a1;
+  font-size: 1.6rem;
+}
+
+.header-text {
+  background-color: #b6e2a1;
+  font-size: 1.6rem;
+  padding: 8px 16px;
+}
+
+.add-pet .card-body {
+  background-color: #fff9f9;
+}
+
+.add-pet .submit-btn {
+  background-color: #85cf62 !important;
+  border-color: #96be83 !important;
+}
+.add-pet .submit-btn:hover {
+  background-color: #7fbe62 !important;
+  border-color: #96be83 !important;
+}
+
+.h2 {
+  color: #f7a4a4;
+}
+
+.infopic {
+  border-radius: 50% !important;
+  border-color: #f7a4a4 !important;
+  border-style: solid !important;
+  border-width: 8px !important;
+  aspect-ratio: 1/1 !important;
+  object-fit: cover !important;
+  width: 80% !important;
+}
+
+.nasloviopisa {
+  color: #f7a4a4;
+}
+
+.advantages {
+  background-color: #f7a4a4 !important;
+  color: white;
+  padding: 15px;
+  border-radius: 8%;
+}
+
+.content {
+  padding-top: 1rem;
+  padding-bottom: 3.5rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3.5rem;
+  background-color: #f7a4a4;
+  color: white;
+}
+
+.card-text p {
+  margin-bottom: 3px;
+}
+.pet-info p {
+  margin-bottom: 3px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.pet-img {
+  max-width: 100%;
+}
+
+.cards-container {
+  margin-bottom: 15px;
+  background-color: white;
+  border: 1px solid #dee2e6;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.spinner-color {
+  color: #b6e2a1;
+}
+
+.card {
+  width: 100%;
+}

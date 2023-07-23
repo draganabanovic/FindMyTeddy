@@ -1,0 +1,8 @@
+/node_modules
+/build
+*.v2
+*.v2
+*.dll
+*.pdb
+*.cache
+*.cache
