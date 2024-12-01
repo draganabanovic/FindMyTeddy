@@ -14,8 +14,9 @@
   <li>React</li>
 </ul>
 <p align="center">
-  <img src="findmyteddy-home-2.png"  alt="Prva slika" width="700"/>
-  <img src="findmyteddy-lostpets.png" alt="Druga slika" width="700" />
+  <img src="findmyteddy-home-2.png"  alt="Pocetna" width="700"/>
+  <img src="findmyteddy-lostpets.png" alt="Iygubljeni ljubimci" width="700" />
+   <img src="findmyteddy-pet.png" alt="Ljubimac" width="700" />
 </p>>
 
 
