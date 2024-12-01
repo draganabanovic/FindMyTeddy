@@ -13,9 +13,12 @@
   <li>TypeScript</li>
   <li>React</li>
 </ul>
+<p align="center">
+  <img src="findmyteddy-home-2.png"  alt="Prva slika" width="700"/>
+  <img src="findmyteddy-lostpets.png" alt="Druga slika" width="700" />
+</p>>
 
-<img src="findmyteddy-home-2.png"  alt="Prva slika" width="700"/>
-<img src="findmyteddy-lostpets.png" alt="Druga slika" width="700" />
+
 
 
 
