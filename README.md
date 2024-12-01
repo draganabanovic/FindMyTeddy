@@ -14,6 +14,8 @@
   <li>React</li>
 </ul>
 
-
-<img src="findmyteddy-home.png" alt="home" width="400"/>
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+   <img src="findmyteddy-home-2.png" alt="home" width="400"/>
 <img src="findmyteddy-lostpets.png" alt="Druga slika" width="400"/>
+</div>
+
